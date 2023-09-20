@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Digital_Marketing_logo-removebg-preview.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Digital Marketing - Home</title>
+</head>
+
+<body>
+    <header>
+        <a href="home.html"><img id="foto" src="Screenshot_1-removebg-preview.png" alt="logo"></a> <!--Foto mexendo-->
+    </header>
+
+    <nav id="navegatin"> <!--Navegação-->
+        <ul>
+            <a href="home.html"><li>Início</li></a>
+            <a href="serviços.html"><li>Serviços</li></a>
+            <a href="Sobre.html"><li>Sobre</li></a>
+            <a href="contato.html"><li>Contato</li></a>
+            <a href="cadastre.php"><li>Cadastre-se</li></a>
+            <a href="formulario.html"><li id="free">Material Gratuito</li></a>
+        </ul>
+    </nav>
+
+    <main>
+        <aside>
+            <div id="control">
+            <h2><span>Inscreva-se agora</span></h2><br><br>
+            <h2>na Newslatter</h2><br><br>
+            <p id="se">Inscreva-se abaixo e receba nosso material gratuitamente!</p>
+            </div>
+            <script>
+                  function mensagem() {
+            alert("Material enviado com sucesso!");
+        }
+            </script>
+            <form>
+                <input type="text" placeholder="Nome" autocomplete="off">
+                <input type="email" placeholder="E-mail" autocomplete="off">
+                <input onclick="mensagem()" type="submit" value="Enviar">
+            </form>
+        </aside>
+
+    <article>
+        <img onmouseover="mudar()" onmouseout="mudar1()" id="imagem" src="E-book Marketing.png"
+            alt="E-book"; id="imagem1" src="Ebook3.png" alt="E-book3" />
+    </article>
+</main>

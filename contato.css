@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "arial", "verdana", "sans-serif";
+}
+
+body {
+    background-color: rgba(20, 18, 18, 0.774);
+}
+
+#foto:hover {
+    transform: translateY(-5rem);
+    transition: 1s;
+}
+
+li {
+    display: inline-block;
+    font-size:40px;
+    font-family: "arial", "verdana", "sans-serif";
+    margin:20px;
+    padding-left:50px;
+    color:white;
+}
+
+li:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+#foto {
+    margin-left: 555px;
+}
+
+#free {
+    border: 3px solid rgb(103, 0, 163);
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2{
+    font-size: 60px;
+    line-height: 80px;
+    font-family: "arial", "verdana", "sans-serif";  
+    align-items: center;  
+}
+
+main {
+    margin: 190px;
+    display: fixed;
+}
+
+#of1 {
+    font-size:90px;
+}
+
+#zap {
+    margin: 200px;
+    margin-top: -270px;
+    position: fixed;
+}
+
+#email { 
+    margin: 197px;
+    margin-top: -225px;
+    position: fixed;
+}
+
+h3 {
+    padding:50px;
+    display: block;
+    font-size: 18.72px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+footer, #face, #youtube, #instagram {
+    margin-right: 150px;
+    margin-left: 200px;
+}
+
+#siga, h3 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+a {
+    color: rgba(20, 18, 18, 0);
+}
+
+main {
+    margin-right: 100px;
+}
+
+h1 {
+    margin: 10px 50px;
+}
+
+
